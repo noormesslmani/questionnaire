@@ -1,17 +1,13 @@
 body{
 background-color: DarkGray;
-height:1200px;
 }
 
-.maindiv{
-width:46%;
-height:90%;
-position: absolute;
-top: 5%;
-left: 28%;
+.maincontainer{
+width: 45%;
+margin: 40px auto;
 }
 
-.table1{
+table{
 width: 100%;
 height: 90px;
 background-color: white;
@@ -24,32 +20,34 @@ align-content: center;
 font-family:  Segoe UI Black;
 }
 
-.div{
+.secondarycontainer{
 background-color: Gainsboro;
 width: 100%;
 }
 
-.div1{
+.datebox{
 width: 50%;
-height: 150px;
 float: left;
 box-sizing: border-box;
 padding-top: 10px;
 padding-left: 40px;
+padding-bottom: 40px;
+height: 150px;
 }
 
 .p1{
 color: DarkRed;
 font-size: 13px;
 font-family: Yu Gothic UI Semibold;
+
 }
 
-.div2{
+.product{
 padding-top: 10px;
 box-sizing: border-box;
 width: 50%;
-height: 150px;
 float: right;
+height: 150px;
 
 }
 
@@ -71,46 +69,46 @@ border-radius: 2px;
 border: 1px solid #ccc;
 }
 
-.div3{
+.container1{
 padding-top: 50px;
 box-sizing: border-box;
 width: 100%;
 height: 200px;
 padding-left: 40px;
+}
 
+.div1
+{
+float:left;
+width:45%;
+height: 30px;
+}
+
+.div2{
+float:right;
+width:55%;
+height: 30px;
+}
+
+.div3{
+float:left;
+width:45%;
+height: 30px;
 }
 
 .div4{
-float:left;
-width:45%;
+float:right;
+width:55%;
 height: 30px;
 }
 
 .div5{
-float:right;
-width:55%;
-height: 30px;
-}
-
-.div6{
-float:left;
-width:45%;
-height: 30px;
-}
-
-.div7{
-float:right;
-width:55%;
-height: 30px;
-}
-
-.div8{
 float:left;
 width:45%;
 height: 60px;
 }
 
-.div9{
+.div6{
 float:right;
 width:55%;
 height: 60px;
@@ -126,127 +124,128 @@ font-size: 12px;
 font-family: Arial;
 }
 
-.div10{
+.container2{
 padding-top: 50px;
 box-sizing: border-box;
 width: 100%;
 padding-left: 40px;
+}
+
+.div7{
+float:left;
+width:45%;
+height: 60px;
+}
+
+.div8{
+float:right;
+width:55%;
+height: 60px;
+}
+
+
+.container3{
+padding-top: 50px;
+box-sizing: border-box;
+width: 100%;
+padding-left: 40px;
+
+}
+
+.div9{
+float:left;
+width:45%;
+height: 60px;
+}
+
+.div10{
+float:right;
+width:55%;
+height: 60px;
+}
+
+.container4{
+padding-top: 50px;
+box-sizing: border-box;
+width: 100%;
+padding-left: 40px;
+
 }
 
 .div11{
 float:left;
 width:45%;
-height: 60px;
+height: 30px;
 }
 
 .div12{
 float:right;
 width:55%;
-height: 60px;
+height: 30px;
 }
-
 
 .div13{
-padding-top: 50px;
-box-sizing: border-box;
-width: 100%;
-padding-left: 40px;
-
-}
-
-.div14{
 float:left;
 width:45%;
 height: 60px;
 }
 
-.div15{
+.div14{
 float:right;
 width:55%;
 height: 60px;
 }
 
-.div16{
+.container5{
 padding-top: 50px;
 box-sizing: border-box;
 width: 100%;
 padding-left: 40px;
+}
 
+.div15{
+float:left;
+width:45%;
+height: 30px;
+}
+
+.div16{
+float:right;
+width:55%;
+height: 30px;
 }
 
 .div17{
 float:left;
 width:45%;
-height: 30px;
+height: 120px;
 }
-
 .div18{
 float:right;
 width:55%;
-height: 30px;
-}
-
-.div19{
-float:left;
-width:45%;
-height: 60px;
-}
-
-.div20{
-float:right;
-width:55%;
-height: 60px;
-}
-
-.div21{
-padding-top: 50px;
-box-sizing: border-box;
-width: 100%;
-padding-left: 40px;
-}
-
-.div22{
-float:left;
-width:45%;
-height: 30px;
-}
-
-.div23{
-float:right;
-width:55%;
-height: 30px;
-}
-
-.div24{
-float:left;
-width:45%;
-height: 120px;
-}
-.div25{
-float:right;
-width:55%;
 height: 120px;
 }
 
-.div26{
+.commentscontainer{
 padding-top: 50px;
 box-sizing: border-box;
 width: 100%;
-height: 350px;
-padding-left: 40px;
-
+position: relative;
+text-align: center;
 }
 
 .input3{
 padding-left: 10px;
 box-sizing: border-box;
 width: 90%;
-height: 120px;
-max-width: 95%;
-max-height: 150px;
+height: 150px;
+min-height: 50px;
+max-width: 90%;
+min-width: 90%;
 border-radius: 2px;
 border: 1px solid #ccc;
 padding-top: 5px;
+
 }
 
 input::placeholder {
@@ -254,14 +253,8 @@ color: Silver;
 font-size: 14px;
 }
 
-.div27{
-width: 100%;
-height:100px
-box-sizing: border-box;
-text-align: center;
-}
-
 .submitb{
+margin-top: 25px;
 margin-bottom: 25px;
 background-color: #595959;
 color:White;
